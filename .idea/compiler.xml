@@ -23,10 +23,12 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="interface-test" />
+        <module name="java-interface-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="interface-test" target="1.8" />
+      <module name="java-interface-test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
