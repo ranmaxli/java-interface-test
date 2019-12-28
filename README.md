@@ -28,3 +28,9 @@ modify the project language version, JDK1.8
 
 File  → Settings  → Build,Execution,Deployment → Compiler  → JavaCompiler  → 
 Target bytecode version 1.8
+
+5、修改配置项 resources
+email.properties
+http_config.properties
+mysql_config.properties
+redis.properties
