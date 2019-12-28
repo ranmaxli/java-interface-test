@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="message" verbose="2">
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <!--<listener class-name="api.util.NewReport"/>-->
+    </listeners>
+
+    <!-- 1001-version -->
+    <test name="DeleteUser用户注销" verbose="2"><classes><class name="api.user.DeleteUser"></class></classes></test>
+    <test name="InsertUser用户注册" verbose="2"><classes><class name="api.user.InsertUser"></class></classes></test>
+    <test name="Login用户登录" verbose="2"><classes><class name="api.user.Login"></class></classes></test>
+    <test name="UpdatePassword用户修改密码" verbose="2"><classes><class name="api.user.UpdatePassword"></class></classes></test>
+
+    <!-- more-version -->
+
+</suite>
