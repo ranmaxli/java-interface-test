@@ -1,7 +1,6 @@
 # java-interface-test
  java自动化接口测试
 
-说明：
 
 1、此脚本测试的项目接口如下，需自行配置idea：
 https://github.com/ranmaxli/springboot-login
